@@ -1,6 +1,12 @@
 {
   "presets": [
+    "@babel/preset-typescript",
     "@babel/preset-env"
   ],
-  "plugins": ["@recap.dev/babel-plugin"]
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-object-assign",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@recap.dev/babel-plugin"
+  ]
 }
