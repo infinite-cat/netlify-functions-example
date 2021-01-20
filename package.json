@@ -2,5 +2,8 @@
   "name": "netlify-functions-example",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@recap.dev/babel-plugin": "^1.0.3"
+  }
 }
