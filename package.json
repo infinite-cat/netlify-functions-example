@@ -4,17 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "netlify-lambda serve src",
     "build": "netlify-lambda build src"
   },
   "dependencies": {
     "@recap.dev/client": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
-    "@babel/plugin-transform-object-assign": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "@babel/preset-typescript": "^7.12.7",
+    "@babel/runtime": "^7.12.5",
     "@recap.dev/babel-plugin": "^1.0.3",
     "netlify-lambda": "^2.0.3"
   }
