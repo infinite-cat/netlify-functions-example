@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "@recap.dev/babel-plugin": "^1.0.3"
-  },
   "dependencies": {
     "@recap.dev/client": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@recap.dev/babel-plugin": "^1.0.3"
   }
 }
