@@ -1,6 +1,6 @@
-import { wrapLambdaHandler } from '@recap.dev/client'
+import { wrapNetlifyHandler } from '@recap.dev/client'
 
-export const handler = wrapLambdaHandler(async (event, context) => {
+export const handler = wrapNetlifyHandler(async (event, context) => {
   return {
     statusCode: 200,
     body: "Hello, World"
